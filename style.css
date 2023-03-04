@@ -1,0 +1,15 @@
+*{
+    font-family: "メイリオ";
+    font-size: inherit;
+    line-height: inherit;
+}
+
+body{
+    font-size: 48px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
