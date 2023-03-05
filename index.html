@@ -7,17 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Guessr</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700&family=Tilt+Warp&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <h1>Country Guessr</h1>
-        <button onclick="location.href='./game_ja.html'">
-            日本語
-        </button>
-        <button onclick="location.href='./game_en.html'">
-            English
-        </button>
+        <div class="title">Country Guessr</div>
+        <br>
+        <div class="boxContainer">
+            <div class="button_blue box">
+                <a href="./game_ja.html">日本語</a>
+            </div>
+            <div class="box">&nbsp;</div>
+            <div class="button_blue box">
+                <a href="./game_en.html">English</a>
+            </div>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>

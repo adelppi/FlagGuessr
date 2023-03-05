@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Guessr</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
@@ -16,16 +19,19 @@
     <div class="container">
         <div id="app">
             <div v-if="gameOver">
-                {{ answer }}
-            </div>
-            <img :src="flagURL" width="750" class="dropShadow"><br>
-            <input v-model="userInput" type="text"><br>
-            スコア: {{ score }}<br>
-            <div v-if="!gameOver">
-                <button @click="seeAnswer">答えを見る</button>
+                <div class="answer">{{ answer }}</div>
             </div>
             <div v-else>
-                <button @click="restart">もう一度</button>
+                <div class="answer">&nbsp;</div>
+            </div>
+            <img :src="flagURL" class="dropShadow"><br>
+            <div class="score">スコア: {{ score }}</div>
+            <input v-model="userInput" type="text" class="textbox"><br>
+            <div v-if="!gameOver" class="button_orange">
+                <a @click="seeAnswer">答えを見る</a>
+            </div>
+            <div v-else class="button_blue">
+                <a @click="restart">もう一度</a>
             </div>
         </div>
     </div>
