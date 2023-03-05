@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="language" content="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Guessr</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="app">
+            <div v-if="gameOver">
+                {{ answer }}
+            </div>
+            <img :src="flagURL" width="750" class="dropShadow"><br>
+            <input v-model="userInput" type="text"><br>
+            Score: {{ score }}<br>
+            <div v-if="!gameOver">
+                <button @click="seeAnswer">See The Answer</button>
+            </div>
+            <div v-else>
+                <button @click="restart">Play Again</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

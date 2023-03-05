@@ -46,7 +46,7 @@
   },
   {
     "countryJA": "アメリカ領ヴァージン諸島",
-    "countryEN": "Virgin Islands, U.S.",
+    "countryEN": "American Virgin Islands",
     "numeric": 850,
     "alpha3": "VIR",
     "alpha2": "VI",
@@ -181,7 +181,7 @@
   },
   {
     "countryJA": "イギリス領ヴァージン諸島",
-    "countryEN": "Virgin Islands, British",
+    "countryEN": "British Virgin Islands",
     "numeric": "092",
     "alpha3": "VGB",
     "alpha2": "VG",
@@ -217,7 +217,7 @@
   },
   {
     "countryJA": "イラン",
-    "countryEN": "Iran, Islamic Republic of",
+    "countryEN": "Iran",
     "numeric": 364,
     "alpha3": "IRN",
     "alpha2": "IR",
@@ -685,7 +685,7 @@
   },
   {
     "countryJA": "コートジボワール",
-    "countryEN": "Côte d'Ivoire",
+    "countryEN": "Cote d'Ivoire",
     "numeric": 384,
     "alpha3": "CIV",
     "alpha2": "CI",
@@ -694,7 +694,7 @@
   },
   {
     "countryJA": "ココス諸島",
-    "countryEN": "Cocos (Keeling) Islands",
+    "countryEN": "Cocos Islands",
     "numeric": 166,
     "alpha3": "CCK",
     "alpha2": "CC",
@@ -784,7 +784,7 @@
   },
   {
     "countryJA": "サン・バルテルミー",
-    "countryEN": "Saint Barthélemy",
+    "countryEN": "Saint Barthelemy",
     "numeric": 652,
     "alpha3": "BLM",
     "alpha2": "BL",
@@ -820,7 +820,7 @@
   },
   {
     "countryJA": "サン・マルタン",
-    "countryEN": "Saint Martin (French part)",
+    "countryEN": "Saint Martin",
     "numeric": 663,
     "alpha3": "MAF",
     "alpha2": "MF",
@@ -1107,8 +1107,8 @@
     "subdivision": "ISO 3166-2:TH"
   },
   {
-    "countryJA": "大韓民国",
-    "countryEN": "Korea, Republic of",
+    "countryJA": "韓国",
+    "countryEN": "South Korea",
     "numeric": 410,
     "alpha3": "KOR",
     "alpha2": "KR",
@@ -1117,7 +1117,7 @@
   },
   {
     "countryJA": "台湾",
-    "countryEN": "Taiwan, Province of China",
+    "countryEN": "Taiwan",
     "numeric": 158,
     "alpha3": "TWN",
     "alpha2": "TW",
@@ -1549,7 +1549,7 @@
   },
   {
     "countryJA": "パレスチナ",
-    "countryEN": "Palestinian Territory, Occupied",
+    "countryEN": "Palestine",
     "numeric": 275,
     "alpha3": "PSE",
     "alpha2": "PS",
@@ -1747,7 +1747,7 @@
   },
   {
     "countryJA": "ベトナム",
-    "countryEN": "Viet Nam",
+    "countryEN": "Vietnam",
     "numeric": 704,
     "alpha3": "VNM",
     "alpha2": "VN",
@@ -1765,7 +1765,7 @@
   },
   {
     "countryJA": "ベネズエラ",
-    "countryEN": "Venezuela, Bolivarian Republic of",
+    "countryEN": "Venezuela",
     "numeric": 862,
     "alpha3": "VEN",
     "alpha2": "VE",
@@ -1836,8 +1836,8 @@
     "subdivision": "ISO 3166-2:BW"
   },
   {
-    "countryJA": "BES諸島",
-    "countryEN": "Bonaire, Saint Eustatius and Saba",
+    "countryJA": "ボネール島",
+    "countryEN": "Bonaire",
     "numeric": 535,
     "alpha3": "BES",
     "alpha2": "BQ",
@@ -1846,7 +1846,7 @@
   },
   {
     "countryJA": "ボリビア",
-    "countryEN": "Bolivia, Plurinational State of",
+    "countryEN": "Bolivia",
     "numeric": "068",
     "alpha3": "BOL",
     "alpha2": "BO",
@@ -1899,8 +1899,8 @@
     "subdivision": "ISO 3166-2:MO"
   },
   {
-    "countryJA": "マケドニア共和国",
-    "countryEN": "Macedonia, the former Yugoslav Republic of",
+    "countryJA": "マケドニア",
+    "countryEN": "Macedonia",
     "numeric": 807,
     "alpha3": "MKD",
     "alpha2": "MK",
@@ -1981,7 +1981,7 @@
   },
   {
     "countryJA": "ミクロネシア連邦",
-    "countryEN": "Micronesia, Federated States of",
+    "countryEN": "Micronesia",
     "numeric": 583,
     "alpha3": "FSM",
     "alpha2": "FM",
