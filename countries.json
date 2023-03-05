@@ -739,7 +739,7 @@
   },
   {
     "countryJA": "コンゴ民主共和国",
-    "countryEN": "Congo, the Democratic Republic of the",
+    "countryEN": "Republic of the Congo",
     "numeric": 180,
     "alpha3": "COD",
     "alpha2": "CD",
@@ -892,7 +892,7 @@
   },
   {
     "countryJA": "シント・マールテン",
-    "countryEN": "Sint Maarten (Dutch part)",
+    "countryEN": "Sint Maarten",
     "numeric": 534,
     "alpha3": "SXM",
     "alpha2": "SX",
@@ -1135,7 +1135,7 @@
   },
   {
     "countryJA": "タンザニア",
-    "countryEN": "Tanzania, United Republic of",
+    "countryEN": "Tanzania",
     "numeric": 834,
     "alpha3": "TZA",
     "alpha2": "TZ",
@@ -1144,7 +1144,7 @@
   },
   {
     "countryJA": "チェコ",
-    "countryEN": "Czech Republic",
+    "countryEN": "Czechia",
     "numeric": 203,
     "alpha3": "CZE",
     "alpha2": "CZ",
@@ -1161,8 +1161,8 @@
     "subdivision": "ISO 3166-2:TD"
   },
   {
-    "countryJA": "中央アフリカ共和国",
-    "countryEN": "Central African Republic",
+    "countryJA": "中央アフリカ",
+    "countryEN": "Central African",
     "numeric": 140,
     "alpha3": "CAF",
     "alpha2": "CF",
@@ -1189,7 +1189,7 @@
   },
   {
     "countryJA": "朝鮮民主主義人民共和国",
-    "countryEN": "Korea, Democratic People's Republic of",
+    "countryEN": "North Korea",
     "numeric": 408,
     "alpha3": "PRK",
     "alpha2": "KP",
@@ -1468,7 +1468,7 @@
   },
   {
     "countryJA": "バチカン",
-    "countryEN": "Holy See (Vatican City State)",
+    "countryEN": "Vatican City State",
     "numeric": 336,
     "alpha3": "VAT",
     "alpha2": "VA",
@@ -1657,7 +1657,7 @@
   },
   {
     "countryJA": "フォークランド諸島",
-    "countryEN": "Falkland Islands (Malvinas)",
+    "countryEN": "Falkland Islands",
     "numeric": 238,
     "alpha3": "FLK",
     "alpha2": "FK",
@@ -2125,7 +2125,7 @@
   },
   {
     "countryJA": "ラオス",
-    "countryEN": "Lao People's Democratic Republic",
+    "countryEN": "Laos",
     "numeric": 418,
     "alpha3": "LAO",
     "alpha2": "LA",
