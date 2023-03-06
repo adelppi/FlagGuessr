@@ -685,7 +685,7 @@
   },
   {
     "countryJA": "コートジボワール",
-    "countryEN": "Cote d'Ivoire",
+    "countryEN": "Côte d'Ivoire",
     "numeric": 384,
     "alpha3": "CIV",
     "alpha2": "CI",
@@ -874,7 +874,7 @@
   },
   {
     "countryJA": "シリア",
-    "countryEN": "Syrian Arab Republic",
+    "countryEN": "Syria",
     "numeric": 760,
     "alpha3": "SYR",
     "alpha2": "SY",
@@ -2071,7 +2071,7 @@
   },
   {
     "countryJA": "モルドバ",
-    "countryEN": "Moldova, Republic of",
+    "countryEN": "Moldova",
     "numeric": 498,
     "alpha3": "MDA",
     "alpha2": "MD",
