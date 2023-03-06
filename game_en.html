@@ -26,7 +26,7 @@
             </div>
             <img :src="flagURL" class="dropShadow"><br>
             <div class="score">Score: {{ score }}</div>
-            <input v-model="userInput" type="text" class="textbox"><br>
+            <input v-model="userInput" @keypress.enter="enterPressed" type="text" class="textbox"><br>
             <div v-if="!gameOver" class="button_orange">
                 <a @click="seeAnswer">See the Answer</a>
             </div>

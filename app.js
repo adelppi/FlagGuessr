@@ -21,6 +21,14 @@ createApp({
             this.score = 0
             this.userInput = ""
             this.randCountry()
+        },
+        enterPressed() {
+            if (this.userInput.toLowerCase() == this.answer.toLowerCase()) {
+                this.userInput = ""
+                this.score++
+                this.randCountry()
+            }
+            console.log("ok")
         }
     },
     computed: {
@@ -46,11 +54,7 @@ createApp({
     },
     watch: {
         userInput: function (userInput) {
-            if (userInput.toLowerCase() == this.answer.toLowerCase()) {
-                this.userInput = ""
-                this.score++
-                this.randCountry()
-            }
+            this.userInput = userInput
         }
     }
 }).mount("#app")
