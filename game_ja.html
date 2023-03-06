@@ -15,16 +15,18 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
-<body>
-    <div class="container">
-        <div id="app">
+<div id="app">
+    <body>
+        <div class="container">
             <div v-if="gameOver">
                 <div class="answer">{{ answer }}</div>
             </div>
             <div v-else>
                 <div class="answer">&nbsp;</div>
             </div>
-            <img :src="flagURL" class="dropShadow"><br>
+            <div v-bind:class="{shake: shake}">
+                <img :src="flagURL" class="dropShadow"><br>
+            </div>
             <div class="score">スコア: {{ score }}</div>
             <input v-model="userInput" @keypress.enter="enterPressed" type="text" class="textbox"><br>
             <div v-if="!gameOver" class="button_orange">
@@ -34,8 +36,8 @@
                 <a @click="restart">もう一度</a>
             </div>
         </div>
-    </div>
-    <script src="app.js"></script>
-</body>
+    </body>
+</div>
+<script src="app.js"></script>
 
 </html>

@@ -6,7 +6,9 @@ createApp({
             countryInfos: [],
             userInput: "",
             score: 0,
-            gameOver: false
+            gameOver: false,
+            shake: false,
+            correct: false
         }
     },
     methods: {
@@ -25,10 +27,12 @@ createApp({
         enterPressed() {
             if (this.userInput.toLowerCase() == this.answer.toLowerCase()) {
                 this.userInput = ""
+                this.correct = true
                 this.score++
                 this.randCountry()
+            } else {
+                this.shake = true
             }
-            console.log("ok")
         }
     },
     computed: {
@@ -55,6 +59,7 @@ createApp({
     watch: {
         userInput: function (userInput) {
             this.userInput = userInput
+            this.shake = false
         }
     }
 }).mount("#app")
