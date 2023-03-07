@@ -112,7 +112,7 @@ img {
 }
 
 .shake {
-    animation: shake 0.1s linear 3;
+    animation: shake 0.1s linear 2;
 }
 @keyframes shake {
     0% {
